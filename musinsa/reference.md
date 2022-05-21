@@ -15,3 +15,19 @@ private static final String Driver = "com.mysql.cj.jdbc.Driver";
         }
     }
     </pre>
+    
+spring.datasource.url=jdbc:mysql://localhost:3306/mybatis_test
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.username=root
+spring.datasource.password=1234
+
+# 인텔리제이,Mybatis, Gradle 설정
+```Application.properties```
+- batis.mapper-locations=classpath:mapper/**.xml
+```Mapper```
+- resources/mapper/*.xml로 위치 해놔야 Aplicaiton.properties에서 설정한 값이 들어감
+- 안하면 BeanCreationException 에러 발생
+
+
+# 타임리프
+- url에 www.붙으면 mdoel값 안 넘어감<html lang="en" xmlns:th="http://thymeleaf.org"> 
