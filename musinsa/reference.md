@@ -31,3 +31,8 @@ spring.datasource.password=1234
 
 # 타임리프
 - url에 www.붙으면 mdoel값 안 넘어감<html lang="en" xmlns:th="http://thymeleaf.org"> 
+
+# 파일 업로드
+- Multipart 처리하기 위해 아차피에서 제공하는 ```commos-fileupload```,```commons-io``` 라이브러리 사용
+- MultipartResolver Bean이 설저되어야 함
+- 
