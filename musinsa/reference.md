@@ -21,6 +21,10 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.datasource.username=root
 spring.datasource.password=1234
 
+# 회원가입, 로그인, 세션 관리
+- 가장 시급하게 연습해야됨
+- 완전 기본기
+
 # 인텔리제이,Mybatis, Gradle 설정
 ```Application.properties```
 - batis.mapper-locations=classpath:mapper/**.xml
